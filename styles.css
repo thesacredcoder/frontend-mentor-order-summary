@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.main {
+  background: url("./images/pattern-background-desktop.svg");
+  background-color: #e0e8ff;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.cardContainer {
+  margin-top: 3%;
+  width: 450px;
+}
+
+.cardImage {
+  z-index: -1;
+  height: 220px;
+}
+.cardImage img {
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.cardContent {
+  z-index: 3;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  background-color: white;
+  margin-top: 0;
+  box-shadow: 2px 79px 99px -35px rgba(31, 47, 86, 0.23);
+}
+.cardContent p {
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  color: #7280a7;
+  width: 65%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.cardTitle h2 {
+  text-align: center;
+  padding: 2.5rem;
+  font-weight: 900;
+}
+
+.plan {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  justify-content: space-between;
+  background-color: #f5f7ff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 2.5rem;
+}
+.plan .plan-image {
+  height: 30px;
+  width: 30px;
+  padding-right: 10px;
+}
+.plan button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #3829e0;
+  font-weight: 900;
+  text-decoration: underline;
+  flex: 0.7;
+}
+.plan button:hover {
+  color: #3829e0;
+  opacity: 0.4;
+  text-decoration: none;
+}
+
+.plan-charge h4 {
+  font-weight: 900;
+}
+.plan-charge span {
+  font-weight: 500;
+  font-size: 15px;
+  color: #7280a7;
+}
+
+.checkout {
+  width: 60%;
+  margin: 0 auto;
+  background: #3829e0;
+  color: white;
+  text-align: center;
+  padding: 1.1rem;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  border-radius: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 2px 79px 99px -35px rgba(114, 128, 167, 0.55);
+}
+.checkout:hover {
+  opacity: 0.4;
+}
+
+.cancel {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+  color: #7280a7;
+  cursor: pointer;
+}
+.cancel:hover {
+  color: black;
+}
+
+/*# sourceMappingURL=styles.css.map */

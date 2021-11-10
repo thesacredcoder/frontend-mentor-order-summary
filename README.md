@@ -56,5 +56,5 @@ One thing I am still not comfortable is with Mobile-First Development. A need of
 
 ## Author
 
-- GitHub - [thesacredcoder](https://www.github.com/thesacredecoder)
+- GitHub - [thesacredcoder](https://www.github.com/thesacredecoder/frontend-mentor-order-summary)
 - Frontend Mentor - [@thesacredcoder](https://www.frontendmentor.io/profile/thesacredcoder)
